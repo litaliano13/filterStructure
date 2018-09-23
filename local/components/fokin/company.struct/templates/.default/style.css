@@ -1,0 +1,30 @@
+#structure-container {
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.structure-block, .structure-form {
+    border: 1px solid green;
+    margin: 20px;
+    padding: 10px;
+}
+
+.structure-block table td, .structure-form table td {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.structure-block table, .structure-form table {
+    border-collapse: collapse;
+    margin: 5px;
+
+}
+
+.structure-form input[type=text], .structure-form select {
+    margin: 10px;
+    width: 80%;
+}
+
+.structure-form {
+    text-align: center;
+}
